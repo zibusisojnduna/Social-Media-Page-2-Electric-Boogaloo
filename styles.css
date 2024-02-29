@@ -1,0 +1,210 @@
+#body1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(./RES/jubeo-hernandez-ZmWLGkPe1Sg-unsplash.jpg);
+    text-align: center;
+    color: white;
+    
+}
+
+#box{
+    border-radius: 20px;
+}
+
+#fieldset1{
+    background-color: rgba(0, 255, 255, 0.363);
+    border-radius: 20px;
+}
+
+#fieldset2{
+    background-color: rgba(0, 0, 255, 0.377);
+    border-radius: 20px;
+}
+
+#button1{
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+    color:white;
+}
+
+#button2{
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+    color: white;
+}
+
+#button3{
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+}
+
+#button4{
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+}
+
+#button4:hover{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+    transition: 2s;
+    color: black;
+}
+
+#button3:hover{
+    cursor: pointer;
+    background-color: greenyellow;
+    color: black;
+    transition: 2s;
+}
+
+#button1:hover{
+    background-color: greenyellow;
+    color: black;
+    transition: 2s;
+}
+
+#button2:hover{
+    background-color: red;
+    color: black;
+    transition: 2s;
+}
+
+
+#SignIn{
+    text-align: center;
+    display: none;
+}
+
+#overlay{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(127, 255, 212, 0.527);
+    cursor: pointer;
+    color: black;
+}
+
+#overlay2{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 255, 0, 0.541);
+    cursor: pointer;
+    color: white;
+}
+
+#body2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+#fieldset3{
+    background-color: #333a73;
+    border-radius: 20px;
+}
+
+#fieldset4{
+    background-color:#387adf;
+    border-radius: 20px;
+    height: max-content;
+    width: 900px;
+}
+
+#fieldset5{
+    background-color: #50c4ed;
+    border-radius: 20px;
+    height: max-content;
+    width: 900px;
+}
+
+#fieldset6{
+    background-color:#d04848;
+    border-radius: 20px;
+    height: max-content;
+    width: 900px;
+}
+
+#fieldset7{
+    background-color:#6895d2 ;
+    border-radius: 20px;
+    height: max-content;
+    width: 900px;
+}
+
+#fieldset8{
+    background-color: #7ed7c1;
+    border-radius: 20px;
+    height: max-content;
+    width: 900px;
+}
+
+#side{
+    margin-left: -2%;
+    height: 1395px;
+    width: 500px;
+    overflow: hidden;
+    position: sticky;
+}
+
+#nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#fba834;
+    border-radius: 20px;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 2s;
+    border-radius: 20px;
+}
+
+#photo{
+    border-radius: 20px;
+}
+
+#posts{
+text-align: center;
+margin-right: -47%;
+}
+
+#main{
+    display: flex;
+}
+
